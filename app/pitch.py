@@ -19,9 +19,9 @@ posts = [
 
 
 @app.route("/")
-@app.route("/home.html")
+# @app.route("/home.html")
 def home():
-    return render_template('home.html', posts=posts)
+    return render_template('/home.html', posts=posts)
 
 
 @app.route("/about.html")

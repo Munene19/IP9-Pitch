@@ -1,7 +1,8 @@
 from flask import Flask, render_template, url_for
+from wtforms import RegistrationForm, LoginForm
 
 app = Flask(__name__, template_folder='templates')
-
+app.config['SECRET_KEY'] = 'itwaruchiu'
 posts = [
     {
         'author': 'Thee Mike',

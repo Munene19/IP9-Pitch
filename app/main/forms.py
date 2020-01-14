@@ -1,4 +1,3 @@
-from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, ValidationError, BooleanField, TextAreaField, SelectField, \
     RadioField
 from wtforms.validators import Required
@@ -26,3 +25,15 @@ from wtforms.validators import Required
 # class CategoryForm(FlaskForm):
 #     name = TextAreaField('Category')
 #     submit = SubmitField()
+
+from flask_wtf import FlaskForm
+from wtforms import StringField
+from wtforms.validators import DataRequired, Length, Email, EqualTo
+
+
+class RegistrationForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired(), Length(min=4, max=12)])
+    email = StringField('Email', validators=[DataRequired(), Email()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
+

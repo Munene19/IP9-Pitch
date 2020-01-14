@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfe17d43-668a-47d2-beb7-6cd4850c3b58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.7/site-packages/login-0.0.6.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.7/site-packages/login-0.0.6.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.7/site-packages/login-0.0.6.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.7/site-packages/login-0.0.6.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.7/site-packages/login-0.0.6.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual/lib/python3.7/site-packages/login/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/pitch.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/pitch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

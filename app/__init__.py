@@ -7,7 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 bootstrap = Bootstrap()
 db = SQLAlchemy()
 
-photos = UploadSet('photos', IMAGES)
+# photos = UploadSet('photos', IMAGES)
 
 
 def create_app(config_name):

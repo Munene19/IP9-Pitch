@@ -31,7 +31,7 @@ def new_category():
         new_category = Category(name=name)
         new_category.save_category()
 
-        return redirect(url_for('index'))
+        return redirect(url_for('.index'))
 
     title = 'New category'
     return render_template('new_category.html', category_form=form, title=title)
